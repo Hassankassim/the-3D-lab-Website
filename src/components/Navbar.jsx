@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import logo from '../assets/img/logo.png'
+import logo from '../assets/icons/logo-no-background.png'
 import cross from '../assets/icons/icons8-cross-100.png'
 function Reactnavbar() {
   return (
@@ -13,7 +13,7 @@ function Reactnavbar() {
       {[ 'sm' ].map((expand) => (
         <Navbar id='transnav' key={expand} expand={expand}  >
           <Container fluid>
-            <Navbar.Brand href="/"><a className='logonav san'><img width={"50px"} src={logo} alt="nexa" />NEXa</a></Navbar.Brand>
+            <Navbar.Brand href="/"><a className='logonav san'><img width={"300px"} src={logo} alt="nexa" /></a></Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}

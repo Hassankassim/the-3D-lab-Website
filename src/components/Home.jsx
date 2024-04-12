@@ -64,9 +64,9 @@ const AboutSection = () => {
           <Row>
             <Col sm={8}>
               <h4 className="headh1">
-                Build Your Future
+                3D&Robotics Studio
               </h4>
-              <h2 className="headl">"Craft Innovative Software Solutions with Us."</h2>
+              <h2 className="headl">"Craft Innovative Hardware Solutions with Us."</h2>
               <br />
               
               <br />
@@ -121,37 +121,37 @@ const SkillsSection = () => {
 
 
 
-const ProjectsSection = () => {
-  const [currentProject, setCurrentProject] = useAtom(currentProjectAtom);
+// const ProjectsSection = () => {
+//   const [currentProject, setCurrentProject] = useAtom(currentProjectAtom);
 
-  const nextProject = () => {
-    setCurrentProject((currentProject + 1) % projects.length);
-  };
+//   const nextProject = () => {
+//     setCurrentProject((currentProject + 1) % projects.length);
+//   };
 
-  const previousProject = () => {
-    setCurrentProject((currentProject - 1 + projects.length) % projects.length);
-  };
+//   const previousProject = () => {
+//     setCurrentProject((currentProject - 1 + projects.length) % projects.length);
+//   };
 
-  return (
-    <Section>
-      <div className="flex w-full h-full gap-8 items-center justify-center">
-        <button
-          className="hover:text-indigo-600 transition-colors"
-          onClick={previousProject}
-        >
-          ← Previous
-        </button>
-        <h2 className="text-3xl md:text-5xl font-bold san logonav">Projects</h2>
-        <button
-          className="hover:text-indigo-600 transition-colors"
-          onClick={nextProject}
-        >
-          Next →
-        </button>
-      </div>
-    </Section>
-  );
-};
+//   return (
+//     <Section>
+//       <div className="flex w-full h-full gap-8 items-center justify-center">
+//         <button
+//           className="hover:text-indigo-600 transition-colors"
+//           onClick={previousProject}
+//         >
+//           ← Previous
+//         </button>
+//         <h2 className="text-3xl md:text-5xl font-bold san logonav">Projects</h2>
+//         <button
+//           className="hover:text-indigo-600 transition-colors"
+//           onClick={nextProject}
+//         >
+//           Next →
+//         </button>
+//       </div>
+//     </Section>
+//   );
+// };
 
 
 
@@ -163,7 +163,7 @@ export const Interface = () => {
     <div >
       <AboutSection />
       <SkillsSection />
-        <ProjectsSection />
+        {/* <ProjectsSection /> */}
     </div>
 
   );

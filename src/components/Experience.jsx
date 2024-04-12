@@ -136,7 +136,7 @@ export const Experience = (props) => {
      
       </motion.group>
    
-        <Projects />
+      
       
       </MotionConfig>
     
