@@ -18,6 +18,7 @@ import About from "./pages/About";
 import Count from "./components/count";
 import JoinUs from "./components/joinus";
 import Testimonial from "./pages/testimonies/testimonialitems";
+import Cardwork from '../src/pages/cards-layout/cards'
 
 function App() {
   const [section, setSection] = useState(0);
@@ -47,9 +48,11 @@ function App() {
             </Scroll>
             <Scroll html>
               <Interface />
+              <div className="container">
+                <Cardwork />
+              </div>
             <div className="container center">
             <Count />
-
             </div>
             <div className="container center">
             <JoinUs />

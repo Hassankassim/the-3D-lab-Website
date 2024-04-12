@@ -162,9 +162,9 @@ font-family: 'Satoshi', sans-serif;
 .logonav {
   
   font-family: 'Avalors Personal Use';
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   text-shadow: 0 0 4px rgb(235, 167, 8);
-  font-size: 30px;
+  font-size: 29px;
   font-weight: 700;
   padding: 0;
   display: flex;
@@ -847,3 +847,153 @@ font-family: 'Satoshi', sans-serif;
 .form-bucket .btn:active {
   transform: scale(0.98);
 }
+
+
+
+
+
+
+
+.custom-card {
+  background-color:#7b06ef14;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 350px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+    border: 1px solid #0099ff;
+  }
+  
+  .custom-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: #e8e8e8;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .custom-heading {
+    font-weight: 400;
+    font-size: 25px;
+    color: #111;
+  }
+  
+  .custom-para {
+    line-height: 1.5;
+    color: #111;
+  }
+  
+  .custom-btn {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(-45deg, #2971f8 0%, #050774 100%);
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .custom-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 6px;
+    background: linear-gradient(-45deg, #60a6f6 0%, #0505742a 100%);
+    z-index: -1;
+    transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  }
+  
+  .custom-card:hover::before {
+    height: 100%;
+  }
+  
+  .custom-card:hover {
+    box-shadow: none;
+  }
+  
+  .custom-card:hover .custom-btn {
+    color: #212121;
+    background: #fcfafaec;
+  }
+  
+  .custom-content .custom-btn:hover {
+    outline: 2px solid #e8e8e8;
+    background: transparent;
+    color: #e8e8e8;
+  }
+  
+  .custom-content .custom-btn:active {
+    box-shadow: none;
+  }
+  
+  
+  /* cardnew */
+  
+.cardnew {
+  width: 320px;
+  height: 350px;
+  padding: 20px;
+  color: white;
+  background: linear-gradient(#212121, #212121) padding-box,
+              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transform-origin: right bottom;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);   
+}
+
+.cardnew .main-contentnew {
+  flex: 1; 
+}
+
+.cardnew .headernew span:first-child {
+  font-weight: 600;
+  color: #717171;
+  margin-right: 4px;
+}
+
+.cardnew .headingnew {
+  font-size: 24px;
+  margin: 24px 0 16px; 
+  font-weight: 600;
+}
+
+.cardnew .categoriesnew {
+  display: flex;
+  gap: 8px;  
+}
+
+.cardnew .categoriesnew span {
+  background-color: #e81cff;
+  padding: 4px 8px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 50em;
+}
+
+.cardnew .footernew {
+  font-weight: 600;
+  color: #717171; 
+  margin-right: 4px;
+}
+
+.cardnew:hover {
+  rotate: 8deg;
+}
+
+
