@@ -15,11 +15,15 @@ const Count = () => {
            
           </div>
 
-          <div className="col-lg-3 col-3 text-center ">
+          {/* <div className="col-lg-3 col-3 text-center ">
             <span><img width={"90px"} src={image2} alt="" /></span>
             
-          </div>
+          </div> */}
 
+          <div className="col-lg-3 col-3 text-center">
+          <span><img width={"90px"} src={image1} alt="" /></span>
+            
+          </div>
           <div className="col-lg-3 col-3 text-center">
           <span><img width={"90px"} src={image1} alt="" /></span>
             

@@ -52,7 +52,7 @@ function App() {
                 <Cardwork />
               </div>
             <div className="container center">
-            <Count />
+            {/* <Count /> */}
             </div>
             <div className="container center">
             <JoinUs />

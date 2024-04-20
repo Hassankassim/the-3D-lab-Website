@@ -1,37 +1,49 @@
 import React from "react";
-// import image1 from '../../assets/icons/handshaking.png'
+// import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import image1 from '../assets/img/3dmodelling.jpg'
+import image2 from '../assets/img/simulation.jpg'
+import image3 from '../assets/img/robotics.jpg'
+import CardWork from "../pages/cards-layout/cardwork";
 const JoinUs = () => {
   return (
+    <>
     <section id="why-us" className="why-us margint buttont" >
-      <div className="container" data-aos="fade-up">
-        <div className="row">
-          <div className="col-lg-12 d-flex align-items-stretch">
-            <div className="content">
-              <h3 id="roboto" className="center "> Work with Us  </h3>
-              <p id='roboto' className="center san" >
-              Unleash your creativity and technical mastery.
-               Innovate with passionate digital artisans.
-                Together, we craft awe-inspiring software and designs that captivate. 
-                Join our team of brilliant minds shaping the future of digital experiences.
-              </p>
-              <div className="text-center center san">
-                <a href="/login" className="unique-btn" id='roboto' >
-                  Join Now <i className="bx bx-chevron-right"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-8 d-flex align-items-stretch"
-            data-aos="zoom-in"
-            data-aos-delay="100"
-          >
-            <div className="icon-boxes d-flex flex-column justify-content-center"></div>
-            {/* End .content */}
-          </div>
-        </div>
-      </div>
+    <Row>
+        <Col>
+          <CardWork
+            heading="ROBOTICS"
+            description="
+            Unlocking the potential of intelligent systems, we offer end-to-end services in robotics development, AI algorithms, and machine learning solutions to revolutionize industries."
+            buttonText="Read more"
+            link="/About"
+            imgSrc={image2}
+          />
+        </Col>
+        <Col>
+          <CardWork
+            heading="3D SOLUTION"
+            description="We offer comprehensive services to turn concepts into reality through expert 3D design and printing solutions."
+            buttonText="Read more"
+            link="/About"
+            imgSrc={image1}
+          />
+        </Col>
+        <Col>
+          <CardWork
+            heading="SIMULATION"
+            // imgSrc={image1}
+            description=" Our unit specializes in modeling real-world scenarios to optimize processes and solutions, providing valuable insights through custom simulation development and analysis..
+            ."
+            buttonText="Read more"
+            link="/About"
+            imgSrc={image3}
+          />
+        </Col>
+      </Row>
     </section>
+    </>
   );
 };
 
