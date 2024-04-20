@@ -10,7 +10,7 @@ import CardWork from "../pages/cards-layout/cardwork";
 const JoinUs = () => {
   return (
     <>
-    <section id="" className="container" >
+    <section id="" className="container margint" >
       <h1 className="logonav">Our Innovation</h1>
     <Row>
         <Col>
