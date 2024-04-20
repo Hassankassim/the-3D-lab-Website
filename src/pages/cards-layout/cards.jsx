@@ -19,6 +19,7 @@ function Cardlayout() {
             buttonText="Read more"
             link="/About"
             imgSrc={image2}
+            details="Data driven office assistance"x
           />
         </Col>
         <Col>

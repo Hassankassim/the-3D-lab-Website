@@ -14,7 +14,7 @@ function Reactnavbar() {
         <Navbar id='transnav' key={expand} expand={expand}  >
           <Container fluid>
             <Navbar.Brand href="/"><a className='logonav san'><img width={"70px"} src={logo} alt="nexa" />3DLab&Robotics</a></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} /> */}
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
@@ -32,9 +32,7 @@ function Reactnavbar() {
                   {/* <Nav.Link className='navli' id ='roboto' href="/About">About Us</Nav.Link> */}
                   {/* <Nav.Link className='navli' id ='roboto' href="#footer">Our Team</Nav.Link> */}
                   <Nav.Link className='navli' id ='roboto' href="#footer">Call Us</Nav.Link>
-                  <span className="d-flex">
-                  
-                </span>
+                 
                 </Nav>
                
               </Offcanvas.Body>
