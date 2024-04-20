@@ -6,7 +6,7 @@ const CardWork = (props) => {
       <div className="card-st">
       <span className="">
               <img width="" className="center" id='roboto' src={props.imgSrc} alt="" />
-              <p className='card-st__description' >data driven office</p>
+              <p className='headl2' >{props.details}</p>
             </span>
            
         <div className="card-st__content">
