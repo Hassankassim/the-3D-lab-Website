@@ -2,6 +2,9 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CardWork from "./cardwork";
+import image1 from '../../assets/img/3dmodelling.jpg'
+import image2 from '../../assets/img/robotics.jpg'
+import image3 from '../../assets/img/simulation.jpg'
 
 function Cardlayout() {
   return (
@@ -12,35 +15,30 @@ function Cardlayout() {
           <CardWork
             heading="ROBOTICS"
             description="
-            NetNexa provides Uni-Jobs, a specialized platform 
-            in Dar es Salaam, connecting students to part-time, internships,
-             or full-time job opportunities"
+            Unlocking the potential of intelligent systems, we offer end-to-end services in robotics development, AI algorithms, and machine learning solutions to revolutionize industries."
             buttonText="Read more"
             link="/About"
+            imgSrc={image2}
           />
         </Col>
         <Col>
           <CardWork
             heading="3D SOLUTION"
-            description="  Our contact management and sharing resource,
-             Dubu, facilitates effective connections. This tool streamlines
-              contact management and sharing, 
-            providing an effective way to build and maintain 
-            professional networks."
+            description="We offer comprehensive services to turn concepts into reality through expert 3D design and printing solutions."
             buttonText="Read more"
             link="/About"
+            imgSrc={image1}
           />
         </Col>
         <Col>
           <CardWork
             heading="SIMULATION"
             // imgSrc={image1}
-            description="NetNexa ensures an easy-to-use interface,
-             making navigation and utilization of the 
-             platform seamless for all users.
+            description=" Our unit specializes in modeling real-world scenarios to optimize processes and solutions, providing valuable insights through custom simulation development and analysis..
             ."
             buttonText="Read more"
             link="/About"
+            imgSrc={image3}
           />
         </Col>
       </Row>

@@ -3,16 +3,17 @@ import React from 'react';
 const CardWork = (props) => {
   return (
     <div className="col-sm center margint">
-      <div className="custom-card">
-        <div className="custom-content">
-          <p className="custom-heading " id='roboto' >{props.heading}</p>
-          <p className="custom-para" id='roboto' >
-            <span className="center">
-              <img width="90px" className="center" id='roboto'  src={props.imgSrc} alt="" />
+      <div className="card-st">
+      <span className="center">
+              <img width="" className="center" id='roboto' src={props.imgSrc} alt="" />
             </span>
+        <div className="card-st__content">
+          <p className="card-st__title" id='roboto'>{props.heading}</p>
+          <p className="card-st__description" id='roboto'>
+         
             {props.description}
           </p>
-         <a href={props.link}> <button className="custom-btn" id='roboto' >{props.buttonText}</button></a>
+         
         </div>
       </div>
     </div>

@@ -18,12 +18,13 @@ const WhyUs = () => {
               </h1>
             </div>
             <p className="san sideline">
-              "Let our creativity and technical mastery breathe life into your
-              vision, crafting online experiences that resonate deeply with your
-              audience. <br />
+              "Our lab adds value through innovation, expertise, collaboration,
+               impactful solutions, and accessibility, driving positive
+               change and empowering individuals and organizations to thrive in
+                a rapidly evolving technological landscape <br />
               
             </p>
-            <div className="center headl2">web/mobile development,threejs,digital marketting</div>
+            <div className="center headl2">3D modelling/printing,Robotics& IoT and AI</div>
           </div>
           
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
