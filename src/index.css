@@ -946,7 +946,7 @@ font-family: 'Satoshi', sans-serif;
   padding: 20px;
   color: white;
   background: linear-gradient(#212121, #212121) padding-box,
-              linear-gradient(145deg, transparent 35%,#e81cff, #40c9ff) border-box;
+              linear-gradient(145deg, transparent 35%,#0740ed, #40c9ff) border-box;
   border: 2px solid transparent;
   border-radius: 8px;
   display: flex;
@@ -978,7 +978,7 @@ font-family: 'Satoshi', sans-serif;
 }
 
 .cardnew .categoriesnew span {
-  background-color: #e81cff;
+  background-color: #002aff;
   padding: 4px 8px;
   font-weight: 600;
   text-transform: uppercase;
@@ -1001,7 +1001,7 @@ font-family: 'Satoshi', sans-serif;
   position: relative;
   width: 300px;
   height: 200px;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  background: linear-gradient(-45deg, #f89b29 0%, #0230fc 100% );
   border-radius: 10px;
   display: flex;
   align-items: center;

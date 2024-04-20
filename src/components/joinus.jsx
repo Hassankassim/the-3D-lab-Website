@@ -11,6 +11,7 @@ const JoinUs = () => {
   return (
     <>
     <section id="why-us" className="why-us margint buttont" >
+      <h1 className="logonav">Our Innovation</h1>
     <Row>
         <Col>
           <CardWork
