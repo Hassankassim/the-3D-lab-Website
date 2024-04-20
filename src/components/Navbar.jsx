@@ -29,8 +29,8 @@ function Reactnavbar() {
 
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3 san">
-                  <Nav.Link className='navli' id ='roboto' href="/About">About Us</Nav.Link>
-                  <Nav.Link className='navli' id ='roboto' href="#footer">Our Team</Nav.Link>
+                  {/* <Nav.Link className='navli' id ='roboto' href="/About">About Us</Nav.Link> */}
+                  {/* <Nav.Link className='navli' id ='roboto' href="#footer">Our Team</Nav.Link> */}
                   <Nav.Link className='navli' id ='roboto' href="#footer">Call Us</Nav.Link>
                   <span className="d-flex">
                   
