@@ -2,9 +2,10 @@ import React from "react";
 // import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import image1 from '../assets/img/3dmodelling.jpg'
-import image2 from '../assets/img/simulation.jpg'
-import image3 from '../assets/img/robotics.jpg'
+import image1 from '../assets/img/innovation1.jpg'
+import image2 from '../assets/img/innovation2.jpg'
+import image3 from '../assets/img/innovation3.jpg'
+
 import CardWork from "../pages/cards-layout/cardwork";
 const JoinUs = () => {
   return (
