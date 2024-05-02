@@ -16,14 +16,14 @@ function ProjectView() {
         </Col>
         <Col>
           <CardProject
-            category="3D modeling and Printing"
+            category="Artificial Intelligence"
             title="Project 2"
             description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           />
         </Col>
         <Col>
           <CardProject
-            category="Simulation"
+            category="3D Modelling and Printing"
             title="Project 2"
             description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           />
