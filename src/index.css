@@ -1075,7 +1075,7 @@ font-family: 'Satoshi', sans-serif;
   overflow: hidden;
   font-size: 14px;
   border-radius: 6px;
-  background-color: white;
+  background-color: rgb(159, 148, 148);
 }
 
 .img-project {

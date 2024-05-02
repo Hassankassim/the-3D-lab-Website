@@ -80,6 +80,7 @@
   .card-chrt {
     position: relative;
     padding-top: 50px;
+   
     /* width: 300px; */
   }
   
@@ -97,11 +98,11 @@
     border-radius: 50%;
     width: 80px;
     height: 80px;
-    border: 7px solid #96f6b7;
+    border: 4px solid #96f6b7;
   }
   .card-chrt .card-body-chrt {
   
-    background: #fff;
+    background: #e8eaee;
     height: 160px;
     text-align: center;
     width: 300px;
