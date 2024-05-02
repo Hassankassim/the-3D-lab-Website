@@ -9,7 +9,7 @@ function CardProject({ category, title, description }) {
         <span className="card-project__span">{category}</span>
         <div className="img-project"></div>
         <div className="card-project-data">
-          <p className="title-project">{title}</p>
+          <p className=" headh">{title}</p>
           <p>{description}</p>
           <button className="button-project">More info</button>
         </div>
