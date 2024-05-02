@@ -1001,7 +1001,7 @@ font-family: 'Satoshi', sans-serif;
   position: relative;
   width: 350px;
   height: 400px;
-  background: linear-gradient(-45deg, #f89b29 0%, #0230fc 100% );
+  background: linear-gradient(-45deg, #178ed85b 0%, #0230fc 100% );
   border-radius: 10px;
   display: flex;
   align-items: center;
