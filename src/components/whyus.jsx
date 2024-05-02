@@ -27,7 +27,7 @@ const WhyUs = () => {
             </p>
             <div className="center headl2">3D modelling/printing,Robotics& IoT and AI</div>
            <div className="center">
-           <Button button="View Team"/>
+           <Button url="/team" button="View Team"/>
            </div>
           </div>
        

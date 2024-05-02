@@ -1,10 +1,7 @@
-import React from 'react';
- // Make sure to have Button.css in the same directory
-
 function Button(props) {
   const handleClick = () => {
     // Redirect to a specific route
-    window.location.href = '/login';
+    window.location.href = props.url;
   };
 
   return (

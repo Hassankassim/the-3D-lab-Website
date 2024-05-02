@@ -1,33 +1,49 @@
 [
   {
-    "name": "Root",
+    "name": "Prof.Baraka Maiseli",
+    "photoLink": "URL_TO_PHOTO",
+    "description": "Advisor",
     "children": [
       {
-        "name": "Child 1",
+        "name": "Hassan",
+        "photoLink": "URL_TO_PHOTO",
+        "description": "Chaiman",
         "children": [
           {
-            "name": "Grand Child"
+            "name": "Judith Solomon",
+            "photoLink": "URL_TO_PHOTO",
+            "description": "3D manager"
           }
         ]
       },
       {
-        "name": "Child 2",
+        "name": "Ismail Msumagile",
+        "photoLink": "URL_TO_PHOTO",
+        "description": "General Secretary",
         "children": [
           {
-            "name": "Grand Child",
+            "name": "Kikota",
+            "photoLink": "URL_TO_PHOTO",
+            "description": "Robotics Manager",
             "children": [
               {
-                "name": "Great Grand Child 1"
+                "name": "Willium Mdem",
+                "photoLink": "URL_TO_PHOTO",
+                "description": "Treasurer"
               },
               {
-                "name": "Grand Grand Child 2"
+                "name": "Diocris",
+                "photoLink": "URL_TO_PHOTO",
+                "description": "Simulation Manager"
               }
             ]
           }
         ]
       },
       {
-        "name": "Child 2"
+        "name": "Shaban Kamulika",
+        "photoLink": "simulation and social media manager",
+        "description": "Vice Chairman"
       }
     ]
   }

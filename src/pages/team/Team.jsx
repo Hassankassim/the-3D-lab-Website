@@ -15,6 +15,10 @@ const Card = (props) => {
   const levelColor = randomcolor();
 
   return (
+    <>
+    
+    <div className="center">
+      
     <ul>
       {props.data.map((item, index) => (
         <Fragment key={item.name}>
@@ -22,14 +26,14 @@ const Card = (props) => {
             <div className="card-chrt">
               <div className="image-chrt">
                 <img
-                  src={"https://randomuser.me/api/portraits/men/" + randomIntFromInterval(1, 100) + ".jpg"}
+                  src={item.photoLink} // Use actual photo link from JSON
                   alt="Profile"
                   style={{ borderColor: levelColor }}
                 />
               </div>
               <div className="card-body-chrt">
-                <h4 className="headh">hassan</h4>
-                <p>{faker.name.jobTitle()}</p>
+                <h4 className="headh">{item.name}</h4> {/* Use actual name from JSON */}
+                <p>{item.description}</p> {/* Use actual description from JSON */}
               </div>
               <div className="card-footer-chrt" style={{ background: levelColor }}>
                 <img
@@ -52,14 +56,20 @@ const Card = (props) => {
         </Fragment>
       ))}
     </ul>
+    </div>
+    </>
   );
 };
 
 const Chart = () => {
   return (
-    <div className="org-tree-chrt">
+    <>
+    <h2 className="headl center margint">Organization</h2>
+    <div className="org-tree-chrt ">
+      
       <Card data={data} />
     </div>
+    </>
   );
 };
 
