@@ -1059,10 +1059,12 @@ font-family: 'Satoshi', sans-serif;
 }
 
 
+
+ /* CARD PROJECT */
 .card-project {
   width: 350px;
   padding: 10px;
-  background-image: linear-gradient(to right bottom, #5d0391, #7b05ae, #9b05cb, #bd00e7, #bd00e7);
+  background-image: linear-gradient(to right bottom, #180391, #1c05ae, #2305cb, #4900e7, #3600e7);
   background-size: 200% 200%;
   border-radius: 12px;
 }
@@ -1107,7 +1109,7 @@ font-family: 'Satoshi', sans-serif;
 .button-project {
   width: 100%;
   margin-top: 15px;
-  background-image: linear-gradient(to right bottom, #5d0391, #7b05ae, #9b05cb, #bd00e7, #bd00e7);
+  background-image: linear-gradient(to right bottom, #480391, #4605ae, #4005cb, #3e00e7, #1f00e7);
   background-size: 200% 200%;
   border: none;
   padding: 8px 10px;

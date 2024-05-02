@@ -5,24 +5,25 @@ import CardProject from './Cardproject';
 function ProjectView() {
   return (
     <Container>
+        <h2 className="logonav">CURRENT PROJECTS:</h2>
       <Row>
         <Col >
           <CardProject
-            category="Category 1"
+            category="Robotics Unit"
             title="Project 1"
             description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
           />
         </Col>
         <Col>
           <CardProject
-            category="Category 2"
+            category="3D modeling and Printing"
             title="Project 2"
             description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           />
         </Col>
         <Col>
           <CardProject
-            category="Category 2"
+            category="Simulation"
             title="Project 2"
             description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
           />

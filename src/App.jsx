@@ -52,7 +52,7 @@ function App() {
               <Interface />
               <ProjectView />
               <div className="container">
-                <Cardwork />
+                {/* <Cardwork /> */}
               </div>
             <div className="container center">
             {/* <Count /> */}
