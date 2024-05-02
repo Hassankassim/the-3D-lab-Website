@@ -36,7 +36,7 @@ const Card = (props) => {
                     <h4 className="headh">{item.name}</h4> {/* Use actual name from JSON */}
                     <p>{item.description}</p> {/* Use actual description from JSON */}
                   </div>
-                  <div className="card-footer-chrt" style={{ background: levelColor }}>
+                  <div className="card-footer-chrt" style={{ background: "#5a56d3" }}>
                     <img
                       src={chat}
                       alt="Chat"
