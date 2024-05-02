@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 function RegisterForm() {
   return (
     <>
-      <Reactnavbar />
+
       <div className="center margint">
         <div className="login-form-container ">
           <p className="login-title">Create an Account</p>

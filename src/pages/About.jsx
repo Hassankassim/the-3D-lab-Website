@@ -13,7 +13,7 @@ import { Projects } from "../components/Projects";
 const About = () => {
   return (
     <>
-      <Reactnavbar />
+     
      
       
       <div className="aboutcard">

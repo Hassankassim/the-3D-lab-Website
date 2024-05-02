@@ -25,7 +25,7 @@ function Download() {
 
   return (
     <>
-      <Reactnavbar />
+    
       <div>
         <div className="container">
           <button className="btn btn-primary" onClick={handleDownloadVcard}>

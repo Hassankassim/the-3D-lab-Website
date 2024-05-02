@@ -36,7 +36,7 @@ function Bucket() {
 
   return (
     <>
-   <Reactnavbar />
+
       <div className="navcomp center san" >
         {/* Main content */}
         <div className="container mt-5">
