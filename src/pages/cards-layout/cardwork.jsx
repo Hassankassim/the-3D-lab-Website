@@ -7,7 +7,7 @@ const CardWork = (props) => {
       <div className="card-st">
    
       <span className="">
-      <p className='headl2' >{props.details}</p>
+      {/* <p className='headl2' >{props.details}</p> */}
       <p className='headl2' >{props.details}</p>
               <img width="" className="center" id='roboto' src={props.imgSrc} alt="" />
               <p className='headl2' >{props.details}</p>
