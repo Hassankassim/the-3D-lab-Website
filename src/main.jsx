@@ -18,6 +18,7 @@ import Download from './pages/Home/Download'
 import Team from './pages/team/Team'
 import Reactnavbar from './components/Navbar'
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -47,6 +48,7 @@ const router = createBrowserRouter([
     path: '/team',
     element: <Team />,
   },
+ 
 ]);
 
 
