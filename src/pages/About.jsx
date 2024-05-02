@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from '../assets/img/about us.png'
+import image1 from '../assets/img/about us.jpg'
 import image2 from '../assets/img/mission.png'
 import image3 from '../assets/img/digitalmarketing 2.png'
 import Reactnavbar from "../components/Navbar";
@@ -27,7 +27,7 @@ const About = () => {
                 data-aos-delay="100"
               >
                 <img
-                  width={"300px"}
+                  width={"400px"}
                   className="bordert img-fluid"
                   src={image1}
 
