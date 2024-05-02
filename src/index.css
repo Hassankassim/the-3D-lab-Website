@@ -999,8 +999,8 @@ font-family: 'Satoshi', sans-serif;
 
 .card-st {
   position: relative;
-  width: 300px;
-  height: 200px;
+  width: 350px;
+  height: 400px;
   background: linear-gradient(-45deg, #f89b29 0%, #0230fc 100% );
   border-radius: 10px;
   display: flex;
