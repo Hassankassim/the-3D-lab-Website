@@ -29,7 +29,7 @@ const JoinUs = () => {
             description="We offer comprehensive services to turn concepts into reality through expert 3D design and printing solutions."
             buttonText="Read more"
             link="/About"
-            details="Data driven office assistance"
+          
             imgSrc={image1}
           />
         </Col>
@@ -63,7 +63,8 @@ const JoinUs = () => {
             description="We offer comprehensive services to turn concepts into reality through expert 3D design and printing solutions."
             buttonText="Read more"
             link="/About"
-            details="Data driven office assistance"
+            details1="Data driven office assistance"
+            details2="May 2024"
             imgSrc={image1}
           />
         </Col>

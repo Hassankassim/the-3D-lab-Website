@@ -19,7 +19,9 @@ function Cardlayout() {
             buttonText="Read more"
             link="/About"
             imgSrc={image2}
-            details="Data driven office assistance"x
+            details1="Data driven office assistance"
+            details2="May 2024"
+            
           />
         </Col>
         <Col>
@@ -27,6 +29,8 @@ function Cardlayout() {
             heading="3D SOLUTION"
             description="We offer comprehensive services to turn concepts into reality through expert 3D design and printing solutions."
             buttonText="Read more"
+            details1="Data driven office assistance"
+            details2="May 2024"
             link="/About"
             imgSrc={image1}
           />

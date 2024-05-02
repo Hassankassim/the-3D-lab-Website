@@ -8,9 +8,9 @@ const CardWork = (props) => {
    
       <span className="">
       {/* <p className='headl2' >{props.details}</p> */}
-      <p className='headl2' >{props.details}</p>
+      <p className='headl2' >{props.details1}</p>
               <img width="" className="center" id='roboto' src={props.imgSrc} alt="" />
-              <p className='headl2' >{props.details}</p>
+              <p className='headl21' >{props.details2}</p>
             </span>
            
         <div className="card-st__content">
