@@ -15,7 +15,7 @@ import About from './pages/About';
 import Register from './pages/Register'
 import Bucket from './pages/Home/Bucket'
 import Download from './pages/Home/Download'
-import Team from './components/Team'
+import Team from './pages/team/Team'
 import Reactnavbar from './components/Navbar'
 
 const router = createBrowserRouter([

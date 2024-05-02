@@ -1,7 +1,7 @@
 import React from 'react';
  // Make sure to have Button.css in the same directory
 
-function Button() {
+function Button(props) {
   const handleClick = () => {
     // Redirect to a specific route
     window.location.href = '/login';
@@ -9,7 +9,7 @@ function Button() {
 
   return (
     <button onClick={handleClick} className="unique-btn" type="button">
-      <strong className="unique-strong">LET MAKE A DEAL</strong>
+      <strong className="unique-strong">{props.button}</strong>
       <div className="unique-container-stars">
         <div className="unique-stars" id="stars"></div>
       </div>

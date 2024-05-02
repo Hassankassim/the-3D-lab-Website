@@ -86,7 +86,7 @@ const AboutSection = () => {
                   delay: 0.02,
                 }}
               >
-              <div className=""> <Button /></div>
+              <div className=""> <Button button="LET MAKE A DEAL" /></div>
               </motion.button>
             </Col>
             <Col sm={4}>

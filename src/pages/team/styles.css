@@ -1,0 +1,145 @@
+/* Other CSS rules remain unchanged */
+
+/* Modified class names */
+.org-tree-chrt ul {
+    padding-top: 20px;
+    position: relative;
+  
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  }
+  
+  .org-tree-chrt li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 5px 0 5px;
+  
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  }
+  
+  /* We will use ::before and ::after to draw the connectors */
+  
+  .org-tree-chrt li::before,
+  .org-tree-chrt li::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%;
+    height: 20px;
+  }
+  
+  .org-tree-chrt li::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid #ccc;
+  }
+  
+  .org-tree-chrt li:only-child::after,
+  .org-tree-chrt li:only-child::before {
+    display: none;
+  }
+  
+  .org-tree-chrt li:only-child {
+    padding-top: 0;
+  }
+  
+  .org-tree-chrt li:first-child::before,
+  .org-tree-chrt li:last-child::after {
+    border: 0 none;
+  }
+  
+  .org-tree-chrt li:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+    -webkit-border-radius: 0 5px 0 0;
+    -moz-border-radius: 0 5px 0 0;
+  }
+  .org-tree-chrt li:first-child::after {
+    border-radius: 5px 0 0 0;
+    -webkit-border-radius: 5px 0 0 0;
+    -moz-border-radius: 5px 0 0 0;
+  }
+  
+  .org-tree-chrt ul ul::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0;
+    height: 20px;
+  }
+  
+  .card-chrt {
+    position: relative;
+    padding-top: 50px;
+    /* width: 300px; */
+  }
+  
+  .card-chrt .image-chrt {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -10px;
+    z-index: 100;
+  }
+  .card-chrt .image-chrt img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 13px solid #96f6b7;
+  }
+  .card-chrt .card-body-chrt {
+  
+    background: #fff;
+    height: 160px;
+    text-align: center;
+    width: 300px;
+    padding-top: 60px;
+    border-radius: 16px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .card-chrt .card-body-chrt h4 {
+    font-weight: 600;
+    line-height: 20px;
+  }
+  .card-chrt .card-body-chrt p {
+    line-height: 20px;
+    font-size: small;
+  }
+  .card-chrt .card-footer-chrt {
+    display: flex;
+    padding: 3px;
+    background: #96f6b7;
+    text-align: center;
+    bottom: 0;
+    position: relative;
+    width: 295px;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .card-chrt .card-footer-chrt img {
+    width: 25px;
+    margin: 5px;
+  }
+  

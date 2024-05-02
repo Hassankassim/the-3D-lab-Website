@@ -2,6 +2,7 @@ import React from "react";
 // import vcfiocn from "../../assets/img/vcard icon2.png";
 import Count from "./count";
 import image1 from "../assets/icons/sitting man.png";
+import Button from "./buttons";
 const WhyUs = () => {
   return (
     <>
@@ -25,8 +26,11 @@ const WhyUs = () => {
               
             </p>
             <div className="center headl2">3D modelling/printing,Robotics& IoT and AI</div>
+           <div className="center">
+           <Button button="View Team"/>
+           </div>
           </div>
-          
+       
           <div className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <div className="center">
               <img width="400px" src={image1} className="img-fluid" alt="" />
