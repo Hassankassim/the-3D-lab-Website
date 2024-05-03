@@ -5,27 +5,32 @@ import CardProject from './Cardproject';
 function ProjectView() {
   return (
     <Container>
-        <h2 className="logonav">CURRENT PROJECTS:</h2>
+      <h2 className="logonav">CURRENT PROJECTS:</h2>
       <Row>
         <Col >
           <CardProject
             category="Robotics Unit"
-            title="Project 1"
-            description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            title="Humanoid Robot Consultant"
+            description="Our robotics unit has made significant strides in developing a
+             humanoid robot consultant, leveraging advanced robotics technologies to provide 
+             innovative solutions for various industries."
           />
         </Col>
         <Col>
           <CardProject
             category="Artificial Intelligence"
-            title="Project 2"
-            description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            title="Data Driven ChatBot"
+            description="In the AI unit, we've been making remarkable
+             progress in creating a data-driven chatbot that utilizes
+              artificial intelligence algorithms to deliver 
+            personalized and responsive interactions for users.."
           />
         </Col>
         <Col>
           <CardProject
             category="3D Modelling and Printing"
-            title="Project 2"
-            description="Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            title="Modelling using Solidwork"
+            description="Our SolidWorks modeling project continues to advance, with our team employing state-of-the-art techniques to create precise and detailed models that meet the exact specifications and requirements of our clients."
           />
         </Col>
         {/* Add more instances of Col and CardProject as needed */}
