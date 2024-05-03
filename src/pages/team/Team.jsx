@@ -6,9 +6,7 @@ import chat from "./icons8-chat-50.png";
 import data from "./data.json";
 import './styles.css';
 
-// Import images
-import passportImage from "./profiles/passport.png";
-import judyImage from "./profiles/judy.jpg";
+
 
 function randomIntFromInterval(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
