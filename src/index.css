@@ -1027,7 +1027,7 @@ font-family: 'Satoshi', sans-serif;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
   width: 100%;
-  height: 100%;
+  height: 50%;
   padding: 20px;
   box-sizing: border-box;
   background-color: #fff;
@@ -1037,7 +1037,9 @@ font-family: 'Satoshi', sans-serif;
 
 .card-st:hover .card-st__content {
   transform: translate(-50%, -50%) rotate(0deg);
-  opacity: 1;
+  opacity: 0.8;
+  font-weight: 100;
+  color: #111;
 }
 
 .card-st__title {
@@ -1050,8 +1052,9 @@ font-family: 'Satoshi', sans-serif;
 .card-st__description {
   margin: 10px 0 0;
   font-size: 14px;
-  color: #777;
+  color: #000000;
   line-height: 1.4;
+  font-weight: 200;
 }
 
 .card-st:hover svg {
