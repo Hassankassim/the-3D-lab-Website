@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import image1 from '../assets/projects/18.jpg'
 import image2 from '../assets/projects/17.jpg'
 import image3 from '../assets/projects/6.jpg'
-import image4 from '../assets/projects/16.jpg'
+import image4 from '../assets/projects/10.jpg'
 import image5 from '../assets/projects/9.jpg'
 import image6 from '../assets/projects/4.png'
 import image7 from '../assets/trainings/1.jpg'
