@@ -13,8 +13,8 @@ import {
 import Interface from './components/Home';
 import About from './pages/About';
 import Register from './pages/Register'
-import Bucket from './pages/Home/Bucket'
-import Download from './pages/Home/Download'
+
+
 import Team from './pages/team/Team'
 import Reactnavbar from './components/Navbar'
 
@@ -36,14 +36,7 @@ const router = createBrowserRouter([
     path: '/register',
     element: <Register />,
   },
-  {
-    path: '/bucket',
-    element: <Bucket />,
-  },
-  {
-    path: '/download',
-    element: <Download />,
-  },
+  
   {
     path: '/team',
     element: <Team />,

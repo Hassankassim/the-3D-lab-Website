@@ -64,7 +64,7 @@ const AboutSection = () => {
           <Row>
             <Col sm={8}>
               <h4 className="headh1">
-                3D&Robotics Studio
+               Robotics Studio
               </h4>
               <h2 className="headl">"Craft Innovative Hardware Solutions with Us."</h2>
               <br />

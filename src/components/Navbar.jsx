@@ -13,7 +13,7 @@ function Reactnavbar() {
       {[ 'sm' ].map((expand) => (
         <Navbar id='transnav' key={expand} expand={expand}  >
           <Container fluid>
-            <Navbar.Brand href="/"><a className='logonav san'><img width={"70px"} src={logo} alt="nexa" />3DLab&Robotics</a></Navbar.Brand>
+            <Navbar.Brand href="/"><a className='logonav san'><img width={"70px"} src={logo} alt="nexa" />Robotics Studio</a></Navbar.Brand>
             {/* <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} /> */}
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
